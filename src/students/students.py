@@ -1,7 +1,7 @@
 # A simple dictionary representing our student database
 STUDENTS_DB = {
-    1: {"name": "Alice", "grade": "A"},
-    2: {"name": "Bob", "grade": "B"}
+    1: {"name": "vikash", "grade": "B"},
+    2: {"name": "jithu", "grade": "A"}
 }
 
 def get_student(student_id):
