@@ -11,7 +11,7 @@ def get_student_id(id):
     return id
 
 def find_year_passout(year):
-    if not (year.isdigit() and len(year) == 4 and year.with("20")):
+    if not (year.isdigit() and len(year) == 4 and year.startswith("20")):
         return "Enter a valid year"
     elif int(year) <= 2023:
         return "More experience for placement"
