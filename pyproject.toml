@@ -1,0 +1,17 @@
+[project]
+name = "python-machine-learning"
+version = "0.1.0"
+description = "this project is a about machine learning"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "pandas>=3.0.5",
+    "pytest>=9.1.1",
+    "scikit-learn>=1.9.0",
+]
+
+
+
+
+
+
